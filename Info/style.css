@@ -1,0 +1,434 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    
+    
+
+}
+body{
+    background-color: #E8D8C4 ;
+}
+    #header-list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+       
+    }
+
+    #header-list-element {
+        padding: 10px;
+        margin-left: 70px;
+    }
+
+ 
+    #header-list-element a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    #header-list-element a:hover{
+        color: #862B0D;
+    }
+
+    #name{
+        padding: 10px;
+        color: white;
+    }
+.header{
+    background-color: #0D92F4 ;
+}
+#Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#7ED4AD ;
+    margin-top: 10px;
+}
+#image{
+    width: 250px;
+    height: 300px;
+    padding: 15px 10px;
+    border-radius: 10%;
+    
+}
+#image:hover{
+    box-shadow: -1px 1px 1px 5px #ECF8F9 ;
+}
+
+
+#Home h1{
+    font-size: 40px;
+    color: #FDF0D1;
+}
+#Home h1:hover{
+    color: #862B0D;
+}
+
+#About{
+    margin-top:10px ;
+    display: flex;
+    padding: 30px 30px ;
+    align-items: center;
+    background-color: #862B0D;
+    height: 400px;
+    justify-content: center;
+    
+}
+
+#About p {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    width: 800px;
+    margin-left:10px ;
+}
+#About img{
+    height: 250px;
+    width: 200px;
+    margin-right:10px ;
+    border-radius: 100%;
+    
+}
+#About img:hover{
+    box-shadow: -1px 1px 1px 5px #ECF8F9 ;
+    
+}
+
+#Services{
+    background-color:#5F6F52 ;
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Services img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+#Services img:hover{
+    box-shadow: -1px 1px 1px 5px  #ECF8F9 ;
+}
+#Contact{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    
+}
+#Contact svg{
+    height: 50px;
+    padding: 10px;
+}
+#Contact p{
+    font-size: 25px;
+}
+#Contact a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.game-list-element{
+    background-color: blue;
+    list-style-type: none;
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+
+}
+.game-list{
+    height: 200px;
+    width: 200px;
+    padding: 2px 2px;
+    margin-left: 20px;
+
+}
+.game{
+    
+    width: fit-content;
+    height: fit-content;
+}
+/* Ümumi tərtibat */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #E8D8C4;
+}
+
+/* Mobil cihazlar üçün (maksimum genişlik: 480px) */
+@media (max-width: 480px) {
+    #header-list {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #header-list-element {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #header-list-element a {
+        font-size: 18px;
+    }
+
+    #Home {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #image {
+        width: 180px;
+        height: 200px;
+    }
+
+    #Home h1 {
+        font-size: 24px;
+    }
+
+    #About {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+        height: auto;
+    }
+
+    #About img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    #About p {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    #Services {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    #Services img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #Contact {
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #Contact p,
+    #Contact a {
+        font-size: 18px;
+    }
+
+    #Contact svg {
+        height: 35px;
+    }
+
+    .game-list-element {
+        width: 40px;
+        height: 40px;
+    }
+
+    .game-list {
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+
+    .game {
+        width: auto;
+        height: auto;
+    }
+}
+
+/* Planşetlər üçün (maksimum genişlik: 768px) */
+@media (max-width: 768px) {
+    #header-list {
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    #header-list-element {
+        margin-left: 20px;
+    }
+
+    #header-list-element a {
+        font-size: 20px;
+    }
+
+    #Home {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    #image {
+        width: 200px;
+        height: 250px;
+    }
+
+    #Home h1 {
+        font-size: 28px;
+    }
+
+    #About {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    #About img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #About p {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    #Services {
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+    }
+
+    #Services img {
+        width: 180px;
+        height: 180px;
+    }
+
+    #Contact {
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #Contact p,
+    #Contact a {
+        font-size: 20px;
+    }
+
+    #Contact svg {
+        height: 40px;
+    }
+
+    .game-list-element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-list {
+        width: 180px;
+        height: 180px;
+    }
+
+    .game {
+        width: auto;
+        height: auto;
+    }
+}
+/* 853px genişlik üçün */
+@media (max-width: 853px) {
+    #header-list {
+        justify-content: space-evenly;
+        padding: 10px 15px;
+    }
+
+    #header-list-element {
+        margin-left: 10px;
+    }
+
+    #header-list-element a {
+        font-size: 22px;
+    }
+
+    #Home {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #image {
+        width: 220px;
+        height: 270px;
+    }
+
+    #Home h1 {
+        font-size: 30px;
+    }
+
+    #About {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    #About img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    #About p {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    #Services {
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+    }
+
+    #Services img {
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+    }
+
+    #Contact {
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #Contact p,
+    #Contact a {
+        font-size: 20px;
+    }
+
+    #Contact svg {
+        height: 40px;
+    }
+
+    .game-list-element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-list {
+        width: 180px;
+        height: 180px;
+        margin-left: 10px;
+    }
+
+    .game {
+        width: auto;
+        height: auto;
+    }
+}
